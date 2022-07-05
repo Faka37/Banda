@@ -28,11 +28,11 @@
 }
 
 a {
-    .a__art {
+    &.a__art {
         color: rgb(177, 34, 34);
     }
     
-    .a__art:hover {
+    &.a__art:hover {
         color: #7067be
     } 
 }
