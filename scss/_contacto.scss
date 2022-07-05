@@ -1,0 +1,67 @@
+.main-contact {
+    background-image: url(../img/Banda.jpg);
+    background-color: #CDCDCD;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sec-contacto {
+    display: flex;
+    justify-content: center;
+}
+
+input,
+textarea {
+    margin: 15px;
+
+}
+
+.label-contacto {
+    width: 173px;
+    text-align: justify;
+    color: #f5a459;
+    font-weight: 600;
+}
+
+legend {
+    text-align: center;
+}
+
+fieldset {
+    background-color: #616060ab;
+    margin-bottom: 10px;
+    border-style: dashed;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.form__input {
+    background: rgba(11, 43, 112, 0);
+    color: #fff;
+    font-weight: 700;
+
+    &::placeholder {
+        color: rgb(241, 241, 241);
+    }
+}
+
+.btn {
+    border-radius: 20%;
+    border: 1px solid #364552be;
+    box-shadow: 2px 3px rgba(245, 164, 89, 0.5);
+    background-color: #364552;
+    color: #fff;
+    padding: 5px;
+
+    &:hover {
+        background: #364552be;
+        color: #000;
+        cursor: pointer;
+    }
+
+    &.btn-contacto {
+        text-align: center;
+    }
+    
+}
+

@@ -1,0 +1,39 @@
+.container {
+    width: 300px;
+}
+
+.container-art {
+    background: rgb(228, 228, 228);
+    border: #364552 solid 1px;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 2px 5px #0000004d;
+    display: inline-block;
+    transition: all 1s;  
+    
+    &:hover{
+        background-color:#364552;
+        border: #f5a459 solid 2px; 
+        color: #fff;  
+    }
+}
+
+.container-p {
+    margin-left: 20px;
+}
+
+.container-img {
+    width: 90%;
+    padding: 20px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+    margin: auto;
+    
+    &:hover{
+        transform: scale(1.2, 1.2);
+    }
+}
+

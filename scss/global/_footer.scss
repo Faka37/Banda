@@ -1,0 +1,33 @@
+footer {
+    background-color: #364552;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.f-text {
+    padding: 5px;
+    color: #000;
+    text-align: start;
+
+}
+
+.footer-a {
+    height: 2rem;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 5px;    
+    bottom: 0;
+
+    &:hover {
+        border-color: #eb7323ea;
+    }
+
+    &:active {
+        border-color: rgba(255, 162, 162, 0.445);
+    }
+}
+
+
+

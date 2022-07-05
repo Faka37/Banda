@@ -1,0 +1,42 @@
+.album-gral {
+    background: linear-gradient(135deg, #364552 0%, #FFFFFF 95%, #BBBBBB 100%);
+}
+
+.section-a {    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.art-album {
+    margin-top: 70px;    
+}
+
+.album-img {    
+    margin-top: 30px;
+    width: 250px;    
+    border-radius: 50%;
+    opacity: 80%;  
+    transition: all 1s;  
+
+    &:hover {
+        transform: scale(1.5,1.5);
+        margin-top: 50px;
+        border: 1px solid #000; 
+        box-shadow: 17px 11px 8px 4px #4e4e4e94;
+        opacity: 100%;
+        
+    }
+}
+
+.fieldset-a {    
+    border-style: dashed;
+    padding: 25px;
+    border-radius: 15px;
+    background-color: #cdcdcdc9;
+}
+
+.container-opciones {
+    margin-top: 20px;
+}
+

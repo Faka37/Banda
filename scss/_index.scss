@@ -1,0 +1,38 @@
+.carousel {
+    justify-content: center;   
+    margin: auto;  
+}
+
+.img-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    margin: 40px;
+}
+
+.img-i {
+    width: 380px;
+}
+
+.text {
+    margin: 20px 0;
+}
+
+
+.aside-i {
+    position: fixed;
+}
+
+.img-aside {
+    box-shadow: 6px 7px 10px 2px #757373;
+}
+
+a {
+    .a__art {
+        color: rgb(177, 34, 34);
+    }
+    
+    .a__art:hover {
+        color: #7067be
+    } 
+}
