@@ -1,9 +1,7 @@
 footer {
-    background-color: #364552;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    @include flex (space-evenly, center);
+    background-color: $primary;
+    color: #fff;  
 }
 
 .f-text {

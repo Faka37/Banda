@@ -1,7 +1,7 @@
-.header {     
+.header {
     align-items: center;      
     justify-content: space-between;
-    background-color: #364552;    
+    background-color: $primary;    
     align-content: flex-end;
     box-shadow: 2px 2px 7px 1px #8b8585;    
 }
@@ -50,26 +50,29 @@ a, #a-header {
         color: #eb7323ea;
         text-decoration: none;
     }
+
+    a:active {
+        color: rgba(255, 162, 162, 0.445);
+    }
 }
 
-
+$map_color: (
+    "azul":blue,"violeta":#d6249f, "rojo":red , "verde":green 
+);
 
 .face:hover {
-    color: blue;
+    color:map-get($map_color,azul );
 }
 
 .inst:hover {  
-    color: #d6249f;    
+    color:map-get($map_color,violeta );    
 }
 
 .yout:hover {
-    color: red;
+    color: map-get($map_color,rojo );
 }
 
 .spot:hover {
-    color: green;
+    color: map-get($map_color,verde );
 }
 
-a:active {
-    color: rgba(255, 162, 162, 0.445);
-}

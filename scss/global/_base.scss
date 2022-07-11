@@ -10,7 +10,7 @@
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    background-color: #c9c5c596;
+    background-color: $background;
 }
 
 h1 {
@@ -35,6 +35,33 @@ h2 {
 
 }
 
+.btn {
+    border-radius: 20%;
+    border: 1px solid #364552be;
+    box-shadow: 2px 3px rgba(245, 164, 89, 0.5);
+    background-color: $primary;
+    color: #fff;
+    padding: 5px;
+
+    &:hover {
+        background: #364552be;
+        color: #000;
+        cursor: pointer;
+    }
+
+}
+
+.btn_red {
+    @extend .btn;
+    color:red
+}
+
+.btn_green {
+    @extend .btn; 
+    color: green;
+    border-radius: 0;
+    background-color: #fff;
+}
 @media screen and (max-width: 480px){
 
     * {
@@ -73,3 +100,4 @@ h2 {
         width: 700px;
     }
 }
+

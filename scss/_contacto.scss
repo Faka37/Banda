@@ -1,6 +1,6 @@
 .main-contact {
     background-image: url(../img/Banda.jpg);
-    background-color: #CDCDCD;
+    background-color: $background;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -45,25 +45,8 @@ fieldset {
     }
 }
 
-.btn {
-    border-radius: 20%;
-    border: 1px solid #364552be;
-    box-shadow: 2px 3px rgba(245, 164, 89, 0.5);
-    background-color: #364552;
-    color: #fff;
-    padding: 5px;
-
-    &:hover {
-        background: #364552be;
-        color: #000;
-        cursor: pointer;
-    }
-
-}
 
 .btn-contacto {
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
+    @include flex (space-around, center);
 }
 

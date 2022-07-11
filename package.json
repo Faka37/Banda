@@ -1,15 +1,27 @@
 {
-  "author": "Nombre e Email",
-  "description": "Descripcion de mi Package",
-  "license": "MIT",
-  "name": "nombre-de-mi-package",
-  "scripts": {
-    "watch:css": "nodemon -e scss -x \"npm run build:css\"",
-    "build:css": "node-sass --output-style compressed scss/main.scss css/main.css"
-  },
+  "name": "banda-facundorodriguez-repo-1",
   "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-sass": "node-sass --include-path scss scss/main.scss css/main.css",
+    "build-scss": "node-sass --output-style compressed scss/main.scss css/main.css",
+    "watch-sass": "nodemon -e scss -x \"npm run build-sass\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Faka37/Banda.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Faka37/Banda/issues"
+  },
+  "homepage": "https://github.com/Faka37/Banda#readme",
   "devDependencies": {
-    "node-sass": "^7.0",
-    "nodemon": "^2.0.18"
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
   }
 }

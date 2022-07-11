@@ -1,11 +1,9 @@
 .album-gral {
-    background: linear-gradient(135deg, #364552 0%, #FFFFFF 95%, #BBBBBB 100%);
+    background: linear-gradient(135deg, $primary 0%, #FFFFFF 95%, #BBBBBB 100%);
 }
 
 .section-a {    
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flex (center, center)
 }
 
 .art-album {
