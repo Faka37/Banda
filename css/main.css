@@ -7,7 +7,7 @@
 .img-center {
   display: flex;
   justify-content: center;
-  justify-items: center;
+  align-items: center;
   margin: 40px; }
 
 .img-i {
@@ -47,7 +47,7 @@ a.a__art:hover {
   .container .container-img {
     display: flex;
     justify-content: center;
-    justify-items: center;
+    align-items: center;
     width: 90%;
     padding: 20px;
     border-radius: 30px;
@@ -62,9 +62,10 @@ a.a__art:hover {
 .section-a {
   display: flex;
   justify-content: center;
-  justify-items: center; }
+  align-items: center; }
 
 .art-album {
+  height: 400px;
   margin-top: 70px; }
 
 .album-img {
@@ -74,7 +75,7 @@ a.a__art:hover {
   opacity: 80%;
   transition: all 1s; }
   .album-img:hover {
-    transform: scale(1.5, 1.5);
+    transform: scale(1.2, 1.2);
     margin-top: 50px;
     border: 1px solid #000;
     box-shadow: 17px 11px 8px 4px #4e4e4e94;
@@ -106,7 +107,8 @@ a.a__art:hover {
 
 .sec-contacto {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  align-items: none; }
 
 input,
 textarea {
@@ -138,7 +140,7 @@ fieldset {
 .btn-contacto {
   display: flex;
   justify-content: space-around;
-  justify-items: center; }
+  align-items: center; }
 
 * {
   margin: 0;
@@ -209,7 +211,7 @@ h2 {
 footer {
   display: flex;
   justify-content: space-evenly;
-  justify-items: center;
+  align-items: center;
   background-color: #364552;
   color: #fff; }
 
