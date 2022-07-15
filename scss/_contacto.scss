@@ -35,12 +35,29 @@ fieldset {
 }
 
 .form__input {
-    background: rgba(11, 43, 112, 0);
-    color: #fff;
-    font-weight: 700;
+    line-height: 28px;
+    border: 2px solid transparent;
+    border-bottom-color: #777;
+    padding: .2rem 0;
+    outline: none;
+    background-color: transparent;
+    color: #0d0c22;
+    transition: .3s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+    &:focus, &:hover {
+        outline: none;
+        padding: .2rem 1rem;
+        border-radius: 1rem;
+        border-color: #f5a459;
+    }
 
     &::placeholder {
-        color: rgb(241, 241, 241);
+        color: rgb(231, 230, 230);
+    }
+
+    &:focus::placeholder {
+        opacity: 0;
+        transition: opacity .3s;
     }
 }
 
@@ -48,4 +65,3 @@ fieldset {
 .btn-contacto {
     @include flex (space-around, center);
 }
-

@@ -3,4 +3,10 @@
 $primary:#364552 ;
 $background: #c9c5c596;
 
+/*  MIXIN  */
 
+@mixin flex ($justify, $align) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
