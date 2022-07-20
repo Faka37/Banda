@@ -1,3 +1,13 @@
+.menu {
+    display:grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "table"
+    "footer"
+    ;
+}
+
 .lineat-p {
     margin: 15px 0;
 }
