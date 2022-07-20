@@ -83,6 +83,7 @@ a.a__art:hover {
     opacity: 100%; }
 
 .fieldset-a {
+  width: 100%;
   border-style: dashed;
   padding: 25px;
   border-radius: 15px;
@@ -128,7 +129,7 @@ textarea {
 legend {
   text-align: center; }
 
-fieldset {
+.fieldset-c {
   width: 300px;
   background-color: #616060ab;
   margin-bottom: 10px;
